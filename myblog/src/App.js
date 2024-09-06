@@ -7,16 +7,12 @@ import Settings from "./pages/setting/Settings";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 
-import { 
-  BrowserRouter, 
-  Route, 
-  Routes 
-} from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <BrowserRouter>
-    <TopBar/>
+      <TopBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="write" element={<Write />} />
